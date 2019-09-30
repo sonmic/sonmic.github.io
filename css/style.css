@@ -74,6 +74,13 @@ ol {
   padding-bottom: 50px !important;
 }
 
+.projectTitleContainer i {
+  font-size: 25px;
+  padding-left: 10px;
+  color: #b5b3b0;
+}
+
+.projectTitleContainer,
 .tech-section .section-title {
   display: flex;
 }
@@ -89,6 +96,9 @@ ol {
   padding-bottom: 15px;
 }
 
+.portfolio-warp {
+  padding-bottom: 80px !important;
+}
 .spad {
   padding-top: 80px;
   padding-bottom: 80px;
@@ -173,28 +183,6 @@ ol {
   100% {
     -webkit-transform: rotate(360deg);
   }
-}
-
-/* Site Buttons */
-
-.site-btn {
-  display: inline-block;
-  text-transform: uppercase;
-  font-size: 12px;
-  min-width: 213px;
-  min-height: 20px;
-  text-align: center;
-  padding: 20px 10px 15px;
-  position: relative;
-  background-color: #fff;
-  margin-right: 10px;
-  border: 2px solid #40424a;
-  color: #40424a;
-  font-weight: 700;
-}
-
-.site-btn:hover {
-  color: #40424a;
 }
 
 .circle-progress {
@@ -675,7 +663,7 @@ figure.hero-image img {
   bottom: 0;
   width: 100%;
   height: 0;
-  background: #000;
+  background: #dce6e6;
   opacity: 0;
   z-index: 2;
   -webkit-transition: all 0.4s cubic-bezier(0.55, 0.09, 0.68, 0.53) 0s;
