@@ -71,6 +71,7 @@ ol {
 
 .tech-section {
   background-color: #f9f9f9;
+  padding-bottom: 50px !important;
 }
 
 .tech-section .section-title {
@@ -89,14 +90,14 @@ ol {
 }
 
 .spad {
-  padding-top: 125px;
-  padding-bottom: 50px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .section-title h2 {
   display: inline-block;
   position: relative;
-  margin-bottom: 110px;
+  margin-bottom: 50px;
   padding-bottom: 2px;
   line-height: normal;
 }
@@ -636,10 +637,16 @@ figure.hero-image img {
 	Portfolio section
 ----------------------*/
 
+.hashtagContainer {
+  color: #9c9c9a;
+}
 .portfolio-warp {
   padding: 0 60px;
 }
 
+.portfolio-item {
+  padding-bottom: 3%;
+}
 .portfolio-item h2 {
   font-size: 24px;
   margin-bottom: 5px;
@@ -651,7 +658,7 @@ figure.hero-image img {
 }
 
 .portfolio-item .port-pic {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   display: block;
   height: 480px;
   background: #333;
@@ -743,109 +750,6 @@ figure.hero-image img {
   font-size: 12px;
   color: #838488;
   line-height: normal;
-}
-
-/*---------------------
-	Home 6 Style
------------------------*/
-
-.home-six-style .site-logo h2 a,
-.home-six-style .site-logo p,
-.home-six-style .hero-text h2,
-.home-six-style .hero-text p,
-.home-six-style .social-links a {
-  color: #fff;
-}
-
-.home-six-style .resume-list h2,
-.home-six-style .icon-box i,
-.home-six-style .single-review .qut {
-  color: #009fff;
-}
-
-.home-six-style .section-title h2:after,
-.home-six-style .fact-box,
-.home-six-style .review-slider .owl-dots .owl-dot.active,
-.home-six-style .language-progress .lan-prog span {
-  background: #009fff;
-}
-
-.home-six-style .language-progress .lan-prog span.fade-ele {
-  background: #cacaca;
-}
-
-.home-six-style .header-section {
-  padding: 50px 80px;
-  background: transparent;
-  position: absolute;
-  width: 100%;
-  z-index: 1;
-}
-
-.home-six-style .hero-section {
-  background: #009fff;
-  padding-top: 70px;
-}
-
-.home-six-style .hero-section img {
-  margin-bottom: 60px;
-}
-
-.home-six-style .hero-text h2 {
-  font-size: 72px;
-  margin-bottom: 40px;
-}
-
-.home-six-style .social-links {
-  padding-top: 0px;
-  text-align: center;
-  padding-bottom: 70px;
-}
-
-.home-six-style .social-links a {
-  font-size: 30px;
-  margin-right: 40px;
-  color: #b9b9b9;
-}
-
-.home-six-style .social-links a:hover {
-  color: #484848;
-}
-
-.home-six-style .resume-list li {
-  padding-left: 0;
-}
-
-.home-six-style .resume-list li:after {
-  display: none;
-}
-
-.home-six-style .resume-list {
-  border-left: none;
-  padding-left: 0;
-  margin-left: 0;
-}
-
-.home-six-style .review-slider {
-  padding-left: 0;
-}
-
-.home-six-style .review-slider .owl-dots {
-  position: relative;
-  left: 0;
-  top: 0;
-  padding-top: 50px;
-}
-
-.home-six-style .review-slider .owl-dots .owl-dot {
-  display: inline-block;
-  margin-right: 15px;
-  background: #cacaca;
-  border: none;
-}
-
-.home-six-style .circle-progress {
-  padding-top: 0;
 }
 
 .info-section {
