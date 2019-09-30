@@ -73,6 +73,13 @@ ol {
   background-color: #f9f9f9;
 }
 
+.tech-section .section-title {
+  display: flex;
+}
+.tech-section i {
+  font-size: 30px;
+}
+
 .tech-section .skillsContainer {
   text-align: left;
   padding-left: 3%;
