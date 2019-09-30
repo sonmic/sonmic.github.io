@@ -69,6 +69,15 @@ ol {
 	Helper CSS
 -----------------------*/
 
+.tech-section {
+  background-color: #f9f9f9;
+}
+
+.tech-section .skillsContainer {
+  text-align: left;
+  padding-left: 3%;
+}
+
 .spad {
   padding-top: 125px;
   padding-bottom: 50px;
