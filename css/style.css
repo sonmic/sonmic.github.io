@@ -927,7 +927,18 @@ figure.hero-image img {
     margin-bottom: 30px;
   }
 
+  .spad {
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
   .social-links {
     text-align: center !important;
   }
+  .skillsContainer {
+    padding-top: 30px;
+  }
+
+  .section-title h2.techSkills {
+    margin-bottom: 0px;
+
 }
