@@ -74,7 +74,7 @@ i:hover{
 	Helper CSS
 -----------------------*/
 
-.projectTitleContainer a[href^="https://github.com"] {
+.projectRight{
     text-align: right;
 }
 
