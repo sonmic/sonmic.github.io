@@ -53,6 +53,7 @@ textarea:focus {
   outline: none;
 }
 
+
 a:hover,
 a:focus {
   text-decoration: none;
@@ -65,6 +66,10 @@ ol {
   margin: 0;
 }
 
+.projectLeft h2:hover,
+i:hover{
+    color: #bfdad9 !important;
+}
 /*---------------------
 	Helper CSS
 -----------------------*/
@@ -391,6 +396,7 @@ ol {
   -o-transition: all 0.3s;
   transition: all 0.3s;
 }
+
 
 /*---------------------
 	Header section
