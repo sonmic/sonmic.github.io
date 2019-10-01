@@ -69,6 +69,10 @@ ol {
 	Helper CSS
 -----------------------*/
 
+.projectTitleContainer a[href^="https://github.com"] {
+    text-align: right;
+}
+
 .tech-section {
   background-color: #f9f9f9;
   padding-bottom: 50px !important;
@@ -80,7 +84,10 @@ ol {
   color: #b5b3b0;
 }
 
-.projectTitleContainer,
+.projectTitleContainer{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
 .tech-section .section-title {
   display: flex;
 }
